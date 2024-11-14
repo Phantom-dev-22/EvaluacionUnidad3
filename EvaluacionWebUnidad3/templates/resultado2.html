@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de Nombres</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Resultado de los Nombres</h1>
+    <p><strong>El nombre con mayor cantidad de caracteres es:</strong> {{ nombre }}</p>
+    <p><strong>El nombre tiene:</strong> {{ longitud }} caracteres.</p>
+    <br>
+    <a href="/">Volver al menú principal</a>
+</body>
+</html>

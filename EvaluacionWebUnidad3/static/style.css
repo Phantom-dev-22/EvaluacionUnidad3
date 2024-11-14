@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #3c9dde;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones de los ejercicios */
+button {
+    background-color: #00BFFF;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+/* Efecto cuando pasas el mouse sobre el botón */
+button:hover {
+    background-color: #1E90FF;
+}
+
+/* Estilos para los inputs de tipo number y text */
+input[type="number"], input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #3ea7ed;
+}
+
+/* Estilo para el botón de enviar (submit) */
+input[type="submit"] {
+    background-color: #3490cf;
+    color: white;
+    border: none;
+}
+
+/* Efecto hover para el botón de enviar */
+input[type="submit"]:hover {
+    background-color: #3da5eb;
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none;
+    color: #00aae4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
